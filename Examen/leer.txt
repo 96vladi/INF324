@@ -2,11 +2,11 @@
 //PREGUNTA 1 en la carpeta PREGUNTA1Y2A
 usuario principal
 11060722
-contraseña
+contraseÃ±a
 vladimir
 
 
-otros usuarios	Contraseña
+otros usuarios	ContraseÃ±a
 123166		818
 1234		12
 4112		272
@@ -17,6 +17,6 @@ La paleta de colores cambia el color de la letra de bienbenida
 
 
 //PREGUNTA 2A
-Pulsar el boton NUMERO DE APROBADOS POR DEPARTAMENTO
+Pulsar el boton NUMERO DE APROBADOS POR DEPARTAMENTO y el codigo se encuentra en el archivo PREGUNTA1Y2A/notas.php
 //PREGUNTA 2B
 Se encuentra en el inicio con el nombre de (preguna2b.txt) codigo sql
