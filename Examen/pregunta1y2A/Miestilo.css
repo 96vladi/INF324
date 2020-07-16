@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  text-decoration: none;
+}
+body{
+  background-image: url(img/fondo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+  /* color: white; */
+  text-align: center;
+  margin: auto;
+}
+aside{
+  float: center;
+  display: inline-table;
+  width: 30%;
+  background:rgba(54,54,54,0.7);
+  margin: 100px;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid white;
+  border-radius:35px 35px 35px 35px;
+}
+aside form button{
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+  background: rgba(20,20,20,0.7);
+  border-style: none;
+  outline: 0px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+aside form input{
+  width: 150px;
+  height: 30px;
+}
+aside form{
+  padding: 40px;
+  border: 1px solid white;
+  background:rgba(54,54,54,0.7);
+}
+[required]{
+  border-color: green;
+  box-shadow: 0px 0px 5px green;
+}
+:invalid{
+  border-color: white;
+  box-shadow: 0px 0px 50px white;
+}
+#inicio{
+  font-size: 30px;
+  width: 30%;
+  height: 100%;
+  padding: 50px 50px 50px 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 400px;
+}
+.mensaje{
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 6px;
+  color: red;
+}
+body{
+  background-image: url(img/paisaje.jpg);
+}
+.contenido{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  background: rgba(0,0,0,0.6);
+  text-aling: center;
+  padding: 20px;
+}
+.contenido img{
+  width: 80px;
+  height: 100px;
+  text-aling: center;
+}
+/* .contenido h1{
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+  margin-top: 20px;
+} */
+.contenido a{
+  display: block;
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid white;
+}
+.contenido a:hover{
+  color: white;
+  background: rgba(0,0,0,0.6);
+}
+.paleta{
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+}
+select{
+  background: rgba(0,0,0,0.6);
+}
+button{
+  width: 100px;
+  height: 20px;
+  background: rgba(20,20,20,0.7);
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+}

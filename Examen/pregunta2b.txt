@@ -1,0 +1,18 @@
+//Muestra el numero de aprobados por departamento ejecutar en el SQL//
+
+
+SELECT (CASE 
+	WHEN LResidencia = 02 THEN 'La Paz'
+ 	WHEN LResidencia = 03 THEN 'Cochabamba'
+ 	WHEN LResidencia = 01 THEN 'Chuquisaca'
+ 	WHEN LResidencia = 04 THEN 'Oruro'
+ 	WHEN LResidencia = 05 THEN 'Potosi'
+ 	WHEN LResidencia = 06 THEN 'Tarija'
+ 	WHEN LResidencia = 07 THEN 'Santa Cruz'
+ 	WHEN LResidencia = 08 THEN 'Beni'
+ 	WHEN LResidencia = 09 THEN 'Pando'
+	ELSE 'otro'
+END) AS Departamento,COUNT(i.LResidencia) NumeroAprobados
+FROM identificador i, notas n
+WHERE i.Ci = n.Ci AND n.Nota>=51
+GROUP BY i.LResidencia
